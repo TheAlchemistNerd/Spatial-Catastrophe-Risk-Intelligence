@@ -1,0 +1,27 @@
+---
+author-meta: "Nevil Maloba | nevillemaloba@gmail.com"
+subject: "Spatial Catastrophe Risk Intelligence research submission materials for the Kenya Bankers Association"
+keywords:
+  - Spatial Catastrophe Risk Intelligence
+  - Kenya
+  - flood
+  - drought
+  - banking
+  - credit risk
+  - actuarial modelling
+lang: "en-KE"
+documentclass: "article"
+papersize: "a4"
+fontsize: "11pt"
+mainfont: "Cambria"
+sansfont: "Arial"
+monofont: "Consolas"
+colorlinks: true
+linkcolor: "SeriesBlue"
+urlcolor: "SeriesBlue"
+geometry:
+  - top=22mm
+  - bottom=21mm
+  - left=23mm
+  - right=23mm
+---

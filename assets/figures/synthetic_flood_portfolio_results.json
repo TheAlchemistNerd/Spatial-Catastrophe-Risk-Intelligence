@@ -1,0 +1,96 @@
+{
+  "units": "KES million",
+  "seed": 20260828,
+  "segments": [
+    {
+      "name": "Dwellings",
+      "count": 120,
+      "value": 4.0,
+      "affected": 0.6,
+      "mdr": 0.18,
+      "ded": 0.1,
+      "limit": 2.5,
+      "share": 1.0,
+      "affected_count": 72,
+      "ground_up_m": 51.839999999999996,
+      "insured_m": 44.64
+    },
+    {
+      "name": "SMEs",
+      "count": 80,
+      "value": 8.0,
+      "affected": 0.45,
+      "mdr": 0.22,
+      "ded": 0.25,
+      "limit": 5.0,
+      "share": 1.0,
+      "affected_count": 36,
+      "ground_up_m": 63.36,
+      "insured_m": 54.36
+    },
+    {
+      "name": "Crop plots",
+      "count": 300,
+      "value": 0.3,
+      "affected": 0.7,
+      "mdr": 0.35,
+      "ded": 0.03,
+      "limit": 0.27,
+      "share": 0.8,
+      "affected_count": 210,
+      "ground_up_m": 22.049999999999997,
+      "insured_m": 12.6
+    },
+    {
+      "name": "Vehicles",
+      "count": 50,
+      "value": 2.0,
+      "affected": 0.3,
+      "mdr": 0.28,
+      "ded": 0.1,
+      "limit": 1.5,
+      "share": 1.0,
+      "affected_count": 15,
+      "ground_up_m": 8.4,
+      "insured_m": 6.900000000000001
+    }
+  ],
+  "central_ground_up_m": 145.65,
+  "central_insured_m": 118.5,
+  "central_xol_recovery_m": 43.5,
+  "central_net_retained_m": 75.0,
+  "event_loss_quantiles_m": {
+    "0.1": 83.51055924007191,
+    "0.5": 115.8604700962028,
+    "0.9": 155.5766106361305,
+    "0.95": 168.82975022369138
+  },
+  "annual_average_loss_m": 76.3557372152251,
+  "return_periods": [
+    3,
+    5,
+    10,
+    20,
+    50,
+    100,
+    200
+  ],
+  "aep_m": [
+    110.35803886448997,
+    142.63462799184143,
+    218.64393992880153,
+    266.9069770569955,
+    336.2638875677173,
+    386.8314533416467,
+    431.277275598398
+  ],
+  "oep_m": [
+    107.05825931321853,
+    127.30457741865807,
+    145.3697202353586,
+    160.06396578923568,
+    176.70225597136422,
+    188.17347925567933,
+    199.6457398424366
+  ]
+}

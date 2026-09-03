@@ -1,0 +1,126 @@
+\usepackage[table]{xcolor}
+\definecolor{SeriesBlue}{HTML}{304E64}
+\definecolor{SeriesNavy}{HTML}{18364D}
+\definecolor{SeriesGold}{HTML}{D9A62E}
+\definecolor{SeriesSlate}{HTML}{647783}
+\definecolor{SeriesPale}{HTML}{EEF3F6}
+
+\usepackage{microtype}
+\usepackage{setspace}
+\setstretch{1.075}
+\usepackage{titlesec}
+\usepackage{fancyhdr}
+\usepackage{booktabs}
+\usepackage{longtable}
+\usepackage{array}
+\usepackage{float}
+\usepackage{caption}
+\usepackage{graphicx}
+\usepackage{pdflscape}
+\usepackage{xurl}
+\usepackage{etoolbox}
+\usepackage{ragged2e}
+\usepackage{tocloft}
+
+\Urlmuskip=0mu plus 1mu
+
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{0.45em plus 0.1em minus 0.08em}
+\setlength{\emergencystretch}{2.5em}
+\renewcommand{\arraystretch}{1.16}
+\captionsetup{font=small,labelfont={bf,color=SeriesNavy},textfont={color=SeriesSlate},skip=7pt}
+
+\renewcommand{\contentsname}{Contents}
+\renewcommand{\cfttoctitlefont}{\sffamily\bfseries\LARGE\color{SeriesNavy}}
+\renewcommand{\cftpartfont}{\sffamily\bfseries\large\color{SeriesNavy}}
+\renewcommand{\cftpartpagefont}{\sffamily\bfseries\color{SeriesNavy}}
+\renewcommand{\cftsecfont}{\rmfamily\color{SeriesBlue}}
+\renewcommand{\cftsecpagefont}{\rmfamily\color{SeriesBlue}}
+\renewcommand{\cftsubsecfont}{\rmfamily\small\color{SeriesSlate}}
+\renewcommand{\cftsubsecpagefont}{\rmfamily\small\color{SeriesSlate}}
+\setlength{\cftbeforepartskip}{1.05em}
+\setlength{\cftbeforesecskip}{0.15em}
+\setlength{\cftsecindent}{1.2em}
+\setlength{\cftsubsecindent}{3.1em}
+\setlength{\cftsecnumwidth}{2.4em}
+\setlength{\cftsubsecnumwidth}{3.3em}
+\renewcommand{\thepart}{\arabic{part}}
+\renewcommand{\cftpartpresnum}{Part~}
+\renewcommand{\cftpartaftersnum}{:~}
+\setlength{\cftpartnumwidth}{4.2em}
+
+\titleformat{\part}[display]
+  {\normalfont\sffamily\bfseries\color{SeriesNavy}\raggedright}
+  {\Large\color{SeriesBlue}Part \thepart}
+  {9mm}
+  {\thispagestyle{empty}\color{SeriesGold}\rule{43mm}{1.8pt}\\[15mm]\color{SeriesNavy}\fontsize{27}{35}\selectfont}
+  [{\vspace{10mm}\normalfont\sffamily\large\color{SeriesSlate}Spatial Catastrophe Risk Intelligence}]
+\titlespacing*{\part}{0pt}{38mm}{13mm}
+
+\titleformat{\chapter}
+  {\normalfont\sffamily\bfseries\color{SeriesBlue}\LARGE}
+  {\thechapter.}{0.65em}{}
+\titlespacing*{\chapter}{0pt}{-7mm}{6mm}
+
+\titleformat{\section}
+  {\normalfont\sffamily\bfseries\color{SeriesNavy}\Large}
+  {\thesection.}{0.55em}{}
+\titleformat{\subsection}
+  {\normalfont\sffamily\bfseries\color{SeriesBlue}\large}
+  {\thesubsection.}{0.5em}{}
+\titleformat{\subsubsection}
+  {\normalfont\sffamily\bfseries\color{SeriesSlate}\normalsize}
+  {\thesubsubsection.}{0.45em}{}
+
+\pagestyle{fancy}
+\fancyhf{}
+\fancyhead[L]{\footnotesize\sffamily\bfseries\color{SeriesBlue}\nouppercase{Spatial Catastrophe Risk Intelligence}}
+\fancyhead[R]{\footnotesize\sffamily\color{SeriesSlate}\nouppercase{\leftmark}}
+\fancyfoot[L]{\footnotesize\sffamily\color{SeriesSlate}White Paper | August 2026}
+\fancyfoot[R]{\footnotesize\sffamily\color{SeriesSlate}\thepage}
+\renewcommand{\headrulewidth}{0.55pt}
+\renewcommand{\footrulewidth}{0.45pt}
+\renewcommand{\headrule}{\hbox to\headwidth{\color{SeriesBlue}\leaders\hrule height \headrulewidth\hfill}}
+\renewcommand{\footrule}{\hbox to\headwidth{\color{SeriesBlue}\leaders\hrule height \footrulewidth\hfill}}
+\fancypagestyle{plain}{%
+  \fancyhf{}%
+  \fancyhead[L]{\footnotesize\sffamily\bfseries\color{SeriesBlue}\nouppercase{Spatial Catastrophe Risk Intelligence}}%
+  \fancyhead[R]{\footnotesize\sffamily\color{SeriesSlate}\nouppercase{\leftmark}}%
+  \fancyfoot[L]{\footnotesize\sffamily\color{SeriesSlate}White Paper | August 2026}%
+  \fancyfoot[R]{\footnotesize\sffamily\color{SeriesSlate}\thepage}%
+  \renewcommand{\headrulewidth}{0.55pt}%
+  \renewcommand{\footrulewidth}{0.45pt}%
+}
+
+\AtBeginEnvironment{longtable}{\small}
+\AtBeginEnvironment{quote}{\color{SeriesNavy}}
+
+\makeatletter
+\renewcommand{\maketitle}{%
+  \begin{titlepage}
+    \pagecolor{SeriesBlue}\color{white}
+    \thispagestyle{empty}
+    \vspace*{30mm}
+    {\sffamily\bfseries\Large SPATIAL CATASTROPHE RISK INTELLIGENCE\par}
+    \vspace{15mm}
+    {\color{SeriesGold}\rule{58mm}{2.2pt}\par}
+    \vspace{20mm}
+    {\sffamily\bfseries\fontsize{29}{37}\selectfont Spatial Catastrophe Risk\par
+      Intelligence\par}
+    \vspace{10mm}
+    {\sffamily\fontsize{16}{22}\selectfont Crowd Intelligence, Artificial Intelligence and Actuarial Modelling\par
+      for Continuous Catastrophe Underwriting\par}
+    \vfill
+    {\sffamily\large Narrative and Technical White Paper\par}
+    \vspace{5mm}
+    {\sffamily\bfseries\large Nevil Maloba\par}
+    \vspace{5mm}
+    {\sffamily\normalsize A Kenya-first architecture for continuous catastrophe underwriting\par}
+    \vspace{6mm}
+    {\sffamily\normalsize August 2026\par}
+    \vspace{16mm}
+  \end{titlepage}
+  \nopagecolor\color{black}
+  \cleardoublepage
+}
+\makeatother

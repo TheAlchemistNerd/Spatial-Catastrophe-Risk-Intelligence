@@ -1,0 +1,56 @@
+\usepackage[table]{xcolor}
+\definecolor{SeriesBlue}{HTML}{304E64}
+\definecolor{SeriesNavy}{HTML}{18364D}
+\definecolor{SeriesGold}{HTML}{D9A62E}
+\definecolor{SeriesSlate}{HTML}{647783}
+\definecolor{SeriesPale}{HTML}{EEF3F6}
+
+\usepackage{microtype}
+\usepackage{setspace}
+\setstretch{1.06}
+\usepackage{titlesec}
+\usepackage{fancyhdr}
+\usepackage{booktabs}
+\usepackage{longtable}
+\usepackage{array}
+\usepackage{float}
+\usepackage{caption}
+\usepackage{graphicx}
+\usepackage{pdflscape}
+\usepackage{xurl}
+\usepackage{ragged2e}
+
+\Urlmuskip=0mu plus 1mu
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{0.42em plus 0.08em minus 0.06em}
+\setlength{\emergencystretch}{2.5em}
+\renewcommand{\arraystretch}{1.14}
+\captionsetup{font=small,labelfont={bf,color=SeriesNavy},textfont={color=SeriesSlate},skip=7pt}
+
+\titleformat{\section}
+  {\normalfont\sffamily\bfseries\color{SeriesNavy}\LARGE}
+  {}{0pt}{}
+\titleformat{\subsection}
+  {\normalfont\sffamily\bfseries\color{SeriesBlue}\Large}
+  {}{0pt}{}
+\titleformat{\subsubsection}
+  {\normalfont\sffamily\bfseries\color{SeriesSlate}\large}
+  {}{0pt}{}
+\titlespacing*{\section}{0pt}{0.8em}{0.5em}
+\titlespacing*{\subsection}{0pt}{0.9em}{0.35em}
+\titlespacing*{\subsubsection}{0pt}{0.7em}{0.25em}
+
+\pagestyle{fancy}
+\fancyhf{}
+\fancyhead[L]{\footnotesize\sffamily\bfseries\color{SeriesBlue}SPATIAL CATASTROPHE RISK INTELLIGENCE}
+\fancyhead[R]{\footnotesize\sffamily\color{SeriesSlate}NEVIL MALOBA}
+\fancyfoot[L]{\footnotesize\sffamily\color{SeriesSlate}Philtechent LTD | nevillemaloba@gmail.com}
+\fancyfoot[R]{\footnotesize\sffamily\color{SeriesSlate}\thepage}
+\renewcommand{\headrulewidth}{0.55pt}
+\renewcommand{\footrulewidth}{0.45pt}
+\renewcommand{\headrule}{\hbox to\headwidth{\color{SeriesBlue}\leaders\hrule height \headrulewidth\hfill}}
+\renewcommand{\footrule}{\hbox to\headwidth{\color{SeriesBlue}\leaders\hrule height \footrulewidth\hfill}}
+\fancypagestyle{plain}{\pagestyle{fancy}}
+
+\AtBeginEnvironment{longtable}{\small}
+\AtBeginEnvironment{quote}{\color{SeriesNavy}}

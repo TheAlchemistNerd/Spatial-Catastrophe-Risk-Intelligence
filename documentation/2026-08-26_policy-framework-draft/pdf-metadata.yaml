@@ -1,0 +1,26 @@
+---
+title: "Kenya Multi-Hazard Catastrophe Intelligence"
+author: "Interdisciplinary Research Manuscript Series"
+date: "August 2026"
+lang: "en-KE"
+documentclass: "book"
+classoption:
+  - oneside
+  - openany
+papersize: "a4"
+fontsize: "11pt"
+mainfont: "Georgia"
+sansfont: "Arial"
+monofont: "Consolas"
+colorlinks: true
+linkcolor: "SeriesBlue"
+urlcolor: "SeriesBlue"
+toc: true
+toc-depth: 3
+numbersections: false
+geometry:
+  - top=25mm
+  - bottom=24mm
+  - inner=24mm
+  - outer=24mm
+---

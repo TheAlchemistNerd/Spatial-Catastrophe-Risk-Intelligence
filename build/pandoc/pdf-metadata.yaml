@@ -1,0 +1,26 @@
+﻿---
+title: "Spatial Catastrophe Risk Intelligence"
+author: "Nevil Maloba"
+date: "August 2026"
+lang: "en-KE"
+documentclass: "book"
+classoption:
+  - oneside
+  - openany
+papersize: "letter"
+fontsize: "11pt"
+mainfont: "Georgia"
+sansfont: "Arial"
+monofont: "Consolas"
+colorlinks: true
+linkcolor: "SeriesBlue"
+urlcolor: "SeriesBlue"
+toc: true
+toc-depth: 2
+numbersections: true
+geometry:
+  - top=22mm
+  - bottom=21mm
+  - inner=23mm
+  - outer=23mm
+---

@@ -1,0 +1,32 @@
+# Source-to-Use Register
+
+**As-of date:** 26 August 2026
+
+This register records source families and permitted research uses. A production implementation requires executed agreements, field-level lawful-basis analysis, security classification, retention schedules, and owner approval.
+
+| Source or authority | Data/authority | Indicative latency and resolution | Permitted manuscript use | Principal restrictions or risks |
+|---|---|---|---|---|
+| Kenya Meteorological Department (KMD) | Forecasts, warnings, county products, climate reports, biometeorological and flood bulletins | Product-dependent; station, county, basin, or national | Authoritative weather/climate context and candidate hazard observations | Confirm product licence, timeliness, station metadata, corrections, and official-alert authority |
+| Water Resources Authority (WRA) | River, climatic, water-resource, and forecasting information; WRIMS context | Station/basin; some real-time telemetry | Hydrology, flood/drought observation, basin topology, water-planning context | Access, quality flags, gauge datum, outages, rating curves, and redistribution terms |
+| National Drought Management Authority (NDMA) | Drought phases, remote-sensing and socioeconomic indicators, county/national bulletins | Commonly monthly and county/livelihood-zone oriented | Slow-onset drought state, impacts, early action, and county context | Phase methodology, revisions, indicator comparability, vulnerable-person data |
+| Plant Protection and Food Safety Directorate (PP&FSD) | Migratory/invasive pest surveillance, reporting, control, coordination | Field report and campaign dependent | Locust/crop-pest state, movement, lifecycle, surveillance, and response | Sensitive control locations, pesticide/environmental risks, transboundary coordination |
+| Kenya Forest Service (KFS) | Forest management, fire protection, forest stations, community forest arrangements | Station/event dependent | Wildfire/rangeland-fire governance, detection, response, ecosystem exposure | Public/community/private forest boundaries; operational/security information |
+| National and county disaster-management functions | Preparedness, contingency, public participation, data, communication, emergency coordination | Event dependent; county/national | Decision-rights and operating-model analysis | Verify exact entity and mandate; do not infer alert or declaration authority from data access |
+| County governments | Local assets, roads, drainage, emergency operations, health, agriculture, community engagement | Asset/event dependent | Exposure, local response, pilot readiness, local knowledge | Heterogeneous systems, personal data, political and procurement constraints |
+| Kenya Space Agency and international EO programmes | Earth observation access, analysis, and capacity | Satellite-dependent | Flood extent, vegetation, fire, deformation, crop, and land-cover research | Revisit time, cloud, speckle, resolution, algorithm error, licence and continuity |
+| Sentinel-1/ESA/Copernicus | SAR imagery and emergency applications | Acquisition-dependent; metre-scale products vary | All-weather flood mapping and deformation concepts | Processing skill, false water detections, orbit/revisit gaps, validation against ground truth |
+| FAO Desert Locust Information Service/eLocust | Standardised field reports and transboundary early warning | Near-real-time when connectivity exists | Comparative locust observation and validation architecture | National validation, access control, environmental and operational sensitivity |
+| Community contributors | Reports, photos, video, water depth, fire/pest/road observations, local impacts | Near-real-time but uneven | Distributed sensing, corroboration, lived impact, action feedback | Consent/lawful basis, location and image privacy, safety, misinformation, exclusion, compensation |
+| Trusted field networks | Chiefs, extension officers, rangers, community health/response volunteers, water-user associations | Operationally variable | Higher-context observations and escalation | Mandate, training, workload, representativeness, safety, source protection |
+| Mobile/network operators and platforms | Aggregated connectivity or mobility indicators; message channels | Near-real-time/aggregated | Communication reach and service-disruption research | Highly sensitive location/behaviour data; contracts, necessity, proportionality, re-identification |
+| Insurers, reinsurers, brokers, and adjusters | Exposure, policy terms, claims, loss adjustment, reinsurance | Transaction/event and development dependent | Actuarial calibration, insured-loss and claims workflow | Confidentiality, policyholder data, selection, coding drift, claims maturity, commercial rights |
+| Banks and investors | Asset locations, loan terms, revenues, covenants, project models | Contract/reporting dependent | Physical-risk transmission and resilience-investment analysis | Bank secrecy/confidentiality, credit decision authority, model and accounting separation |
+| National Treasury | Disaster-risk-financing policy, fiscal data, contingent finance | Strategy/budget/event dependent | Sovereign and county risk-layering context | Current strategy and public-finance law control; model output cannot authorise expenditure |
+| Insurance Regulatory Authority/Kenya Law | Insurance law, product, conduct, claims, capital, and control requirements | Legal/regulatory | Binding or official insurance framework | Verify current version and applicability; manuscripts are not legal opinions |
+| Office of the Data Protection Commissioner/Kenya Law | Data-protection law, regulations, guidance, rights | Legal/regulatory | Privacy, automated decision, DPIA, rights, data-sharing controls | Field-level role and lawful-basis assessment required |
+| International bodies and research | WMO, FAO, ESA, IPCC, IAA, World Bank, peer-reviewed literature | Publication dependent | Comparative science, standards, finance, and methods | Label comparative status; do not override Kenyan mandates or local evidence |
+
+## Minimum field-level register
+
+Any implementation dataset must add: field name, definition, subject, controller, processor, source, lawful basis, purpose, recipient, model use, decision use, retention, deletion, transfer, encryption, access role, quality rule, unit, time semantics, correction rule, schema version, and data-subject rights process.
+
