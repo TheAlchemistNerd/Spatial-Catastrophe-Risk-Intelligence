@@ -91,13 +91,13 @@ Access to this layer should follow role, customer, environment and purpose. Prod
 
 Kenyan copyright protects eligible literary works, software, maps, plans and diagrams. Registration is voluntary, but the Copyright Register provides prima facie evidence of the registered particulars. The National Rights Registry accepts literary works and software documentation. See the [Kenya Copyright Act](https://new.kenyalaw.org/akn/ke/act/2001/12/eng%402022-12-31) and [National Rights Registry](https://nrr.copyright.go.ke/).
 
-For your commercial objective, I recommend an all-rights-reserved reader licence rather than putting the entire project under an open licence:
+The selected publication policy is a clear separation between an openly licensed reader edition and the proprietary product layer. The public white paper is released under the [Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International licence (CC BY-NC-SA 4.0)](https://creativecommons.org/licenses/by-nc-sa/4.0/):
 
-> **Copyright © 2026 Nevil Maloba. All rights reserved.**
+> **Copyright © 2026 Nevil Maloba.**
 >
-> Permission is granted to download, read, cite and share the complete, unmodified PDF for personal, educational and non-commercial research purposes, with full attribution. Commercial use, adaptation, extraction for product development, redistribution of modified versions, and use of proprietary models, datasets, diagrams or software require prior written permission from the author. Third-party materials remain subject to their respective rights and licences.
+> This reader edition is licensed under Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0), except where otherwise noted. Readers may share and adapt the licensed material for non-commercial purposes, provided they give appropriate credit, link to the licence and indicate whether changes were made. Adaptations shared with others must use the same licence or a Creative Commons compatible licence. No endorsement by the author is implied. Third-party materials remain subject to their stated rights and licence terms.
 
-Have a Kenyan IP lawyer refine this notice. If you prefer a standard international licence, CC BY-NC-ND 4.0 permits sharing with attribution while preventing commercial use and distribution of adaptations. It is irrevocable once granted, so the custom reader licence offers greater commercial control.
+CC BY-NC-SA 4.0 is irrevocable for copies already released under its terms. The release gate should therefore confirm that the public PDF contains the intellectual thesis, publishable diagrams and selected methods intended for open reuse, while proprietary code, confidential data, model weights, production parameters, customer configurations and unpublished inventions remain outside the released work. A Kenyan IP lawyer can review this boundary, contributor rights and the chain of title without replacing the standard licence text.
 
 Also:
 
@@ -112,7 +112,7 @@ Also:
 1. Freeze the publication candidate and assign its edition and version.
 2. Verify author and rights-holder names across the title page, copyright page and file metadata.
 3. Identify every third-party image, dataset, quotation, diagram and software component and record its licence or permission.
-4. Add the final reader licence after legal review.
+4. Confirm the CC BY-NC-SA 4.0 notice, scope statement and recommended attribution after legal review.
 5. Generate and retain a cryptographic hash for the released PDF and its source bundle.
 6. Register the relevant work with KECOBO's National Rights Registry.
 7. Preserve the signed-off source, references, claim ledger and production record.
@@ -249,4 +249,3 @@ This guide is implemented when:
 - Kenya Industrial Property Institute: https://kipi.go.ke/
 - Kenya Industrial Property Institute, trade-mark guidance: https://newsite.kipi.go.ke/trade-marks
 - Republic of Kenya, *Industrial Property Act*, No. 3 of 2001, sections 21–23: https://new.kenyalaw.org/akn/ke/act/2001/3/eng%402022-12-31
-

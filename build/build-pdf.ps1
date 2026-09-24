@@ -43,6 +43,7 @@ $structureFilter = Join-Path $pandocDir "series-structure.lua"
 $mermaidFilter = Join-Path $pandocDir "mermaid-filter.lua"
 $headerFile = Join-Path $pandocDir "pdf-header.tex"
 $frontmatterFile = Join-Path $pandocDir "pdf-frontmatter.tex"
+$pdfInfoScript = Join-Path $PSScriptRoot "set-pdf-info.py"
 
 Push-Location $projectRoot
 try {
@@ -61,6 +62,9 @@ try {
     "--output=$outputPath"
 
   if ($LASTEXITCODE -ne 0) { throw "Pandoc PDF build failed with exit code $LASTEXITCODE" }
+
+  python $pdfInfoScript $outputPath
+  if ($LASTEXITCODE -ne 0) { throw "PDF metadata finalisation failed with exit code $LASTEXITCODE" }
 } finally {
   Pop-Location
 }

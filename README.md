@@ -51,7 +51,7 @@ The [reports index](reports/README.md) links the implementation and review recor
 
 ## Compiled PDF
 
-The current reviewed sample, [Spatial Catastrophe Risk Intelligence — Positive Product Narrative Edition](output/pdf/SCRI_Positive_Product_Narrative_Edition.pdf), is generated reproducibly with Pandoc, XeLaTeX and the local Mermaid Lua filter:
+The current reviewed publication, [Spatial Catastrophe Risk Intelligence White Paper](output/pdf/Spatial_Catastrophe_Risk_Intelligence_White_Paper.pdf), is generated reproducibly with Pandoc, XeLaTeX and the local Mermaid Lua filter. The reader edition is licensed under [Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International](https://creativecommons.org/licenses/by-nc-sa/4.0/), except where otherwise noted:
 
 ```powershell
 .\build\build-pdf.ps1

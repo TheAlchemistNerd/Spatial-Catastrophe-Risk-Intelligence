@@ -284,7 +284,7 @@ Recommended metadata:
 - **Version:** 1.0;
 - **Language:** English;
 - **Keywords:** Kenya; catastrophe risk; actuarial modelling; crowd intelligence; artificial intelligence; disaster risk finance; resilience finance;
-- **Rights:** the legally reviewed custom reader permission or selected standard licence;
+- **Rights:** Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0), except where otherwise noted;
 - **Related identifiers:** ISBN, related datasets, later papers and software records; and
 - **Description:** abstract, scope, citation and relationship to Philtechent LTD.
 
